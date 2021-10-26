@@ -1,22 +1,22 @@
 var class1 = prompt("first subject?");
-document.write (" first subject is " + class1);
+document.write ("<li> first subject is " + class1 + "</li>");
 
 var average = getTestAvg();
-document.write(average);
+document.write("<li> first average is " + average + "</li>");
 var letterGrade = getLetterGrade(average);
-document.write(letterGrade);
+document.write("<li> first grade is " + letterGrade + "</li>");
 var GPA = getGPA(letterGrade);
-document.write(GPA);
+document.write("<li> first GPA is " + GPA + "</li>");
 
 var class2 = prompt("second subject?");
-document.write (" second subject is " + class2);
+document.write ("<li> second subject is " + class2 + "</li>");
 
 var average2 = getTestAvg();
-document.write(average2);
+document.write("<li> second average is " + average2 + "</li>");
 var letterGrade2 = getLetterGrade(average2);
-document.write(letterGrade2);
+document.write("<li> second grade is " + letterGrade2 + "</li>");
 var GPA2 = getGPA(letterGrade2);
-document.write(GPA2);
+document.write("<li> second GPA is " + GPA2 + "</li>");
 
 var class3 = prompt("third subject?");
 document.write (" third subject is " + class3);
