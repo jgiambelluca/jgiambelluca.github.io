@@ -19,27 +19,27 @@ var GPA2 = getGPA(letterGrade2);
 document.write("<li> second GPA is " + GPA2 + "</li>");
 
 var class3 = prompt("third subject?");
-document.write (" third subject is " + class3);
+document.write ("<li> third subject is " + class3 + "</li>");
 
 var average3 = getTestAvg();
-document.write(average3);
+document.write("<li> third average is " + average3 + "</li>");
 var letterGrade3 = getLetterGrade(average3);
-document.write(letterGrade3);
+document.write("<li> third grade is " + letterGrade3 + "</li>");
 var GPA3 = getGPA(letterGrade3);
-document.write(GPA3);
+document.write("<li> third GPA is " + GPA3 + "</li>");
 
 var class4 = prompt("fourth subject?");
-document.write (" fourth subject is " + class4);
+document.write ("<li> fourth subject is " + class4 + "</li>");
 
 var average4 = getTestAvg();
-document.write(average4);
+document.write("<li> fourth average is " + average4 + "</li>");
 var letterGrade4 = getLetterGrade(average4);
-document.write(letterGrade4);
+document.write("<li> fourth grade is " + letterGrade4 + "</li>");
 var GPA4 = getGPA(letterGrade4);
-document.write(GPA4);
+document.write("<li> fourth GPA is " + GPA4 + "</li>");
 
 var ovrGPA = ((GPA + GPA2 + GPA3 + GPA4)/4);
-document.write(" your overall GPA is " + ovrGPA);
+document.write("<li> your overall GPA is " + ovrGPA + "</li>");
 
 
 
